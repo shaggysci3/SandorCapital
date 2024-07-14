@@ -10,12 +10,15 @@ import './App.css'
 import ErrorPage from './routes/ErrorPage';
 import Home from './routes/Home';
 import { createRoot } from 'react-dom/client';
+import Navbar from './components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   
 
   return (
     <>
+    <Navbar/>
     <Outlet></Outlet>
      
     </>
