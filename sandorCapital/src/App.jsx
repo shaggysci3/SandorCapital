@@ -18,8 +18,10 @@ function App() {
 
   return (
     <>
+    <div className='websiteContainer'>
     <Navbar/>
     <Outlet></Outlet>
+    </div>
      
     </>
   )

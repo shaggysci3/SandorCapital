@@ -7,4 +7,45 @@ body {
   display: block;
   margin: unset;
 }
+.websiteContainer{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.imgBlock{
+  max-width: 1920px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  width: 100%;
+  align-items: center;
+}
+.blockImg{
+  width: 50%;
+}
+.blockCard{
+  padding: 30px;
+  background-color:#f0ca89 ;
+  max-width: 1920;
+  height: 200px;
+}
+.cardContainer{
+  max-width: 1920px;
+    position: relative;
+    top: 34px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  row-gap: 30px;
+  column-gap: 30px;
+    
+}
+.myCard{
+  height: 170px;
+  width: 350px;
+  background-color: white;
+  box-shadow: 3px 1px 20px -2px black;
+  padding: 10px;
+}
 
