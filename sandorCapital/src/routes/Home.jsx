@@ -22,14 +22,15 @@ const Home = () =>{
         <div className="blockCard">
           <div className="cardContainer">
               <div className="myCard">
-                <h3>card 1</h3>
+                <h3 className="cardTitle">card 1</h3>
+                <h4 style={{fontWeight:"bold"}}>investment</h4>
                 <p>here at card one we pride ourself on how much we love the number 1 as in we wont be making you a single dollar.</p>
               </div>
               <div className="myCard">
-                <h3>card 2</h3>
+                <h3 className="cardTitle">card 2</h3>
               </div>
               <div className="myCard">
-                <h3>card 3</h3>
+                <h3 className="cardTitle">card 3</h3>
               </div>
               
           </div>
