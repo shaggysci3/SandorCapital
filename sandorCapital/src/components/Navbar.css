@@ -8,7 +8,7 @@
     background-color: white;
     width: 100%;
     padding: 3px;
-    border-bottom: #263F4C solid 3px;
+    border-bottom: #c1cace solid 3px;
     
 
 }
@@ -29,14 +29,19 @@
     padding: 5px;
     border-bottom: 2px solid #ffffff00 ;
 }
-.NavbarItem:hover{
-    transition: 300ms;
-    border-bottom: 2px solid #263F4C ;
+.NavbarItem:hover {
+    /* transition: .3s; */
     cursor: pointer;
-    
+    text-decoration: underline;
+    text-underline-offset: 26px;
+    text-decoration-color: #942139;
+    text-decoration-thickness: 4px;
 }
 .NavbarItem:focus{
-    border-bottom: 2px solid #263F4C ;
+    text-decoration:underline;
+    text-underline-offset: 26px;
+    text-decoration-color: #942139;
+    text-decoration-thickness: 4px;
 }
 
 .fundLink{
